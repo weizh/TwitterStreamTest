@@ -5,4 +5,20 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>twiterstream downloading</name>
   <description>download tweets from twitter</description>
+  <scm>
+  	<connection>scm:git:git@github.com:weizh/twitterstreamtest.git</connection>
+  	<developerConnection>scm:git:git@github.com:weizh/twitterstreamtest.git</developerConnection>
+  </scm>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.twitter4j</groupId>
+  		<artifactId>twitter4j-core</artifactId>
+  		<version>3.0.5</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.twitter4j</groupId>
+  		<artifactId>twitter4j-stream</artifactId>
+  		<version>3.0.5</version>
+  	</dependency>
+  </dependencies>
 </project>
